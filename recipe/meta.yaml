@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-filesystem-access" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f39260a3662ee511bd9df12a3ad6a7f8efe918704717be99b89120c90c14e7bb
+  sha256: cc7487a14fe1756baa6862188e19e54d002f67ab83d9a0928c784d7fcfd22703
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/jupyterlab-contrib/jupyterlab-filesystem-access
-  summary: 'Mount local folder in JupyterLab using the Filesystem API'
+  summary: Mount local folder in JupyterLab using the Filesystem API
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
