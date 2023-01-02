@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-filesystem-access" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cc7487a14fe1756baa6862188e19e54d002f67ab83d9a0928c784d7fcfd22703
+  sha256: f6b0fe6e6f72423e28453edfa45695114c5103d317ecfe811d63736f5027eb71
 
 build:
   noarch: python
