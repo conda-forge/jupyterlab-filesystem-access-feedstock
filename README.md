@@ -1,11 +1,11 @@
-About jupyterlab-filesystem-access
-==================================
+About jupyterlab-filesystem-access-feedstock
+============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-filesystem-access-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyterlab-contrib/jupyterlab-filesystem-access
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-filesystem-access-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mount local folder in JupyterLab using the Filesystem API
 
