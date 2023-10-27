@@ -1,13 +1,13 @@
 {% set name = "jupyterlab-filesystem-access" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f6b0fe6e6f72423e28453edfa45695114c5103d317ecfe811d63736f5027eb71
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 2ef1061f2291519d5089fb3442bd7839a89cb30d64d00b928f39613acee8fc89
 
 build:
   noarch: python
@@ -19,8 +19,9 @@ requirements:
     - python  >=3.6
     - pip
     - jupyterlab
-    - yarn
-    - jupyter-packaging
+    - hatchling >=1.5.0
+    - hatch-jupyter-builder >=0.5
+    - hatch-nodejs-version >=0.3.2
   run:
     - python  >=3.6
 
